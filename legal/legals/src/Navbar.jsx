@@ -35,8 +35,12 @@ function Navbarr() {
                 </NavDropdown.Item>
               </NavDropdown>
               {/* <Nav.Link href="#home">Home</Nav.Link> */}
-              <Nav.Link href="#features">HOW IT WORKS</Nav.Link>
-              <NavDropdown title=" COMPANY" id="collapsible-nav-dropdown">
+              <Nav.Link href="#hiw">HOW IT WORKS</Nav.Link>
+              <NavDropdown
+                title=" COMPANY"
+                id="collapsible-nav-dropdown"
+                className="mb-2"
+              >
                 <NavDropdown.Item href="#business">About</NavDropdown.Item>
                 <NavDropdown.Item href="#criminal">Blog</NavDropdown.Item>
                 <NavDropdown.Item href="#family">Family Law</NavDropdown.Item>
@@ -44,7 +48,7 @@ function Navbarr() {
               </NavDropdown>
             </Nav>
 
-            <Button variant="outline-info">Post My Services</Button>
+            <Button variant="outline-success">Post My Services</Button>
             {/* <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
         </Form> */}

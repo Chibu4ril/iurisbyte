@@ -10,3 +10,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.branded {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Trusted_by_top_companies_ {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 134.765625px;
+  margin-top: -20px;
+}
+.Byteworks_Logo {
+  width: 166px;
+  height: 35px;
+  background-image: url(./components/images/Byteworks\ Logo.png);
+  background-size: cover;
+}
+.Innoson_Vehicles_Logo {
+  width: 166px;
+  height: 36px;
+  background-image: url(./components/images/Innoson\ Vehicles\ Logo.png);
+  background-size: cover;
+}
+.Andela_Logo {
+  width: 166px;
+  height: 50px;
+  background-image: url(./components/images/Andela\ Logo.png);
+  background-size: cover;
+}
+.Dangote_Logo {
+  width: 166px;
+  height: 50px;
+  background-image: url(./components/images/Dangote\ Logo.png);
+  background-size: cover;
+}
