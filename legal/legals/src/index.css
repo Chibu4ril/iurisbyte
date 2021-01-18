@@ -52,3 +52,12 @@ code {
   background-image: url(./components/images/Dangote\ Logo.png);
   background-size: cover;
 }
+
+/* services area  */
+.Most_Popular_Legal_Services {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}

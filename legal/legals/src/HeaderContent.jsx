@@ -9,7 +9,6 @@ import {
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import Lawyer from "./components/images/bg-2.png";
 
 import "./Header.css";
 
@@ -47,9 +46,7 @@ function HeaderContent() {
             </div>
           </Col>
           <Col sm>
-            <div className="bda">
-              {/* <img src={Lawyer} alt="" srcset="" className="illu" /> */}
-            </div>
+            <div className="bda"></div>
           </Col>
         </Row>
       </Container>
